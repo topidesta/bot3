@@ -1,9 +1,9 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
 const flowHelp = addKeyword(['ayuda', '2'])
-    .addAnswer('Ha selecionado Ayuda')
+    .addAnswer('Anda telah memilih bantuan')
     .addAnswer(
-        ['En construcción...'],
+        ['Dalam pengembangan...'],
         { capture: false },
         async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
             const flowMain = require('../flowMain')

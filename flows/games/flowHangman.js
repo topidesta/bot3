@@ -156,7 +156,7 @@ const flowHangmanDifficulty = addKeyword(['2', 'Dificultad'])
                     return false;
             }
 
-            await flowDynamic(['Usted ha Cambiado su dificultad a: *' + globalState.get(ctx.from).HangmanDifficulty + '* con exito.'])
+            await flowDynamic(['Anda telah mengubah kesulitan Anda menjadi: *' + globalState.get(ctx.from).HangmanDifficulty + '* con exito.'])
             await gotoFlow(flowHangman);
         }
     )

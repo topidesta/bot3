@@ -12,10 +12,10 @@ const flowMain = addKeyword(EVENTS.WELCOME)
     .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
     .addAnswer(
         [
-            'Te comparto los siguientes comandos que puedes realizar',
-            '👉 *(1)* *Juegos* Lista de Juegos',
-            '👉 *(2)* *Ayuda*  Obtener ayuda',
-            '👉 *(3)* *Contacto* Contacta al desarrollador',
+            'Saya membagikan perintah berikut yang dapat Anda lakukan',
+            '👉 *(1)* *Juegos* Daftar Game',
+            '👉 *(2)* *Ayuda*  Dapatkan Bantuan',
+            '👉 *(3)* *Contacto* Hubungi Pengembang',
         ],
         { capture: true },
         (ctx) => {
